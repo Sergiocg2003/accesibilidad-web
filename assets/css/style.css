@@ -53,7 +53,7 @@ header{
     padding: 5px 10px;
 }
 .cabecera-top a{
-    color: rgb(0, 0, 0);
+    color: #000;
 }
 .cabecera-top > div{
     max-width: 200px;
