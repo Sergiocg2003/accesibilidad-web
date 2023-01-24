@@ -72,6 +72,10 @@ header > a{
     justify-content: center;
     background: #E8F8F5;
 }
+.texto-oculto{
+    display: none;
+}
+
 .navbar-light .navbar-nav .nav-link{
     text-align: center;
 }
