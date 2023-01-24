@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
     <head>
         <meta charset="UTF-8">
         <title>Exposiciones · La Galería Ecléctica</title>
@@ -20,10 +20,11 @@
                 </div>
             </div>
             <a href="index.html">
-                <img src="assets/img/logo.png" />
+                <img src="assets/img/logo.png" alt="Logotipo de la web"/>
             </a>
             <nav class="navbar navbar-expand-lg navbar-light bg-verde-claro">
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup">
+                    <span class="texto-oculto">Boton de menu desplegable</span>
                     <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -122,24 +123,24 @@
                     08018 Barcelona
                 </a>
                 <div class="rrss">
-                    <a href="#"><i class="fab fa-facebook-square"></i></a>
-                    <a href="#"><i class="fab fa-twitter-square"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-youtube-square"></i></a>
+                    <a href="https://www.facebook.com/"><span class="texto-oculto">Enlace a facebook</span><i class="fab fa-facebook-square"></i></a>
+                    <a href="https://www.twitter.com/"><span class="texto-oculto">Enlace a twitter</span><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://www.instagram.com/"><span class="texto-oculto">Enlace a instagram</span><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.youtube.com/"><span class="texto-oculto">Enlace a youtube</span><i class="fab fa-youtube-square"></i></a>
                 </div>
+        
                 <form>
                     <h4>Suscríbete a nuestra Newsletter</h4>
                     <div class="form-group">
-                        <input type="email" class="form-control" placeholder="Enter email">
+                        <label for="correo">Email:<input type="email" id="correo" name="correo" class="form-control" placeholder="Enter email"></label>
                     </div>
                     <div class="form-group form-check">
-                        <input type="checkbox" class="form-check-input">
-                        <label>Acepto la <a href="#">Política de privacidad </a></label>
+                        <label class="form-check-label" for="privacidad"><input type="checkbox" id="privacidad" name="privacidad" class="form-check-input">Acepto la <a href="#">Política de privacidad </a></label>
                     </div>
                     <button type="submit" class="btn btn-secondary">Registrarme</button>
                 </form>
                 <a href="index.html" class="logo">
-                    <img src="assets/img/logo.png"/>
+                    <img src="assets/img/logo.png" alt="Logotipo de la web"/>
                 </a>
                 <nav class="navbar navbar-expand-lg navbar-light bg-verde-claro">
                     <div class="navbar-nav">
@@ -149,6 +150,7 @@
                         <a class="nav-item nav-link" href="#">Cookies</a>
                     </div>
                 </nav>
+        
             </div>
             <div class="creditos">
                 <h6>Créditos</h6>
@@ -158,6 +160,7 @@
                     Actividad para comprobar la Accesibilidad Web, para el módulo de Diseño de Interfaces Web.
                     IES Rafael Alberti - 2022/2023</p>
             </div>
+        
         </footer>
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
