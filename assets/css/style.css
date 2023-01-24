@@ -25,7 +25,7 @@ a:hover{
 }
 
 h3{
-    color: #48c9af ;
+    color: #48C9B0 ;
 }
 
 main img{
@@ -53,7 +53,7 @@ header{
     padding: 5px 10px;
 }
 .cabecera-top a{
-    color: #fff;
+    color: rgb(0, 0, 0);
 }
 .cabecera-top > div{
     max-width: 200px;
