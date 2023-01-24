@@ -75,20 +75,20 @@
                         <h3>Cantidad del donativo (EUR)</h3>
 
                         <div class="form-check-inline">
-                            <input class="form-check-input" type="radio" name="unaVez" id="unaVez" value="option1" checked>
+                            
                             <label class="form-check-label" for="unaVez">
-                                Una única vez
+                                Una única vez<input class="form-check-input" type="radio" name="unaVez" id="unaVez" value="option1" checked>
                             </label>
                         </div>
                         <div class="form-check-inline">
-                            <input class="form-check-input" type="radio" name="mensual" id="mensual" value="option2">
+                            
                             <label class="form-check-label" for="mensual">
-                                Mensual
+                                Mensual<input class="form-check-input" type="radio" name="mensual" id="mensual" value="option2">
                             </label>
                         </div>
                         <div class="form-group">
-                            <label for="exampleFormControlSelect2">Importe</label>
-                            <select multiple class="form-control" id="exampleFormControlSelect2">
+                            <label for="exampleFormControlSelect2">Importe
+                                <select multiple class="form-control" id="exampleFormControlSelect2" name="exampleFormControlSelect2">
                                 <option>5€</option>
                                 <option>10€</option>
                                 <option>20€</option>
@@ -96,60 +96,52 @@
                                 <option>50€</option>
                                 <option>100€</option>
 
-                            </select>
+                                </select>
+                            </label>
+                            
                         </div>
                         <div class="form-group">
-                            <label>Otra cantidad</label>
-                            <input type="password" class="form-control" placeholder="Escriba otro importe">
+                            <label for="importe">Otra cantidad<input type="number" name="importe" id="importe" class="form-control" placeholder="Escriba otro importe"></label>
+                            
                         </div>
                         <hr>
                         <h3>Datos de facturación</h3>
                         <div class="form-group">
-                            <label>Email</label>
-                            <input type="email" class="form-control" placeholder="Escribe tu email">
+                            <label for="email">Email<input type="email" name="email" id="email" class="form-control" placeholder="Escribe tu email"></label>
                             <small class="form-text text-muted">Nunca compartiremos su correo electrónico con nadie.</small>
                         </div>
                         <div class="form-group">
-                            <label>Nombre </label>
-                            <input type="text" class="form-control" placeholder="Escribe tu nombre ">
+                            <label for="nombre">Nombre <input type="text" name="nombre" id="nombre" class="form-control" placeholder="Escribe tu nombre "></label>
                         </div>
                         <div class="form-group">
-                            <label>Apellidos </label>
-                            <input type="text" class="form-control" placeholder="Tu apellidos">
+                            <label for="apellidos">Apellidos <input type="text" name="apellidos" id="apellidos" class="form-control" placeholder="Tu apellidos"></label>
                         </div>
 
                         <div class="form-group">
-                            <label>Dirección postal </label>
-                            <input type="text" class="form-control" placeholder="Tu dirección postal">
+                            <label for="codigo postal">Dirección postal <input type="text" name="codigo postal" id="codigo postal" class="form-control" placeholder="Tu dirección postal"></label>
                             <small class="form-text text-muted">Nunca compartiremos su dirección con nadie.</small>
                         </div>
 
                         <div class="form-group">
-                            <label>Teléfono </label>
-                            <input type="tel" class="form-control" placeholder="Teléfono">
+                            <label for="telefono">Teléfono <input type="tel" name="telefono" id="telefono" class="form-control" placeholder="Teléfono"></label>
                             <small class="form-text text-muted">Nunca compartiremos su teléfono con nadie más.</small>
                         </div>
                         <hr>
                         <h3>Datos de pago</h3>
                         <div class="form-group">
-                            <label>Número tarjeta</label>
-                            <input type="number" class="form-control" placeholder="Número de tarjeta">
+                            <label for="numero tarjeta">Número tarjeta<input type="number" name="numero tarjeta" id="numero tarjeta" class="form-control" placeholder="Número de tarjeta"></label>
                         </div>
                         <div class="form-group">
-                            <label>Data de expiración</label>
-                            <input type="text" class="form-control" placeholder="MM/AA">
+                            <label for="expiracion">Data de expiración <input type="text" name="expiracion" id="expiracion" class="form-control" placeholder="MM/AA"></label>
                         </div>
                         <div class="form-group">
-                            <label>Código de verificación</label>
-                            <input type="number" class="form-control" placeholder="CCV">
+                            <label for="verificacion">Código de verificación <input type="number" name="verificacion" id="verificacion" class="form-control" placeholder="CCV"></label>
                         </div>
                         <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input">
-                            <label class="custom-control-label">Hago este donativo de manera anónima</label>
+                            <label class="custom-control-label" for="anonimo">Hago este donativo de manera anónima<input type="checkbox" name="anonimo" id="anonimo" class="custom-control-input"></label>
                         </div>
                         <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input">
-                            <label class="custom-control-label">Acepto expresamente la <a href="#">política de protección de datos </a></label>
+                            <label class="custom-control-label" for="proteccion"><input type="checkbox" name="proteccion" id="proteccion" class="custom-control-input">Acepto expresamente la <a href="#">política de protección de datos </a></label>
                         </div>
                         <button type="submit" class="btn btn-secondary">Enviar</button>
                     </form>
